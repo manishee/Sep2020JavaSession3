@@ -89,41 +89,58 @@ public class ConditionalOperatorsIfElseCondition {
 		// WAP to check the browser value and launch the respective
 		//browser
 		
-		String browser="safari";
-//		//1. if
-		//if(browser.equals("chrome")) {
-//			System.out.println("launch chrome browser");
-//		}
-//		if(browser.equals("firefox")) {
-//			System.out.println("launch firefox browser");
-//		}
-//		if(browser.equals("ie")) {
-//			System.out.println("launch ie browser");
-//		}
-//		if(browser.equals("safari")) {
-//			System.out.println("launch safari browser");
-//		}
-//		else {
-//			System.out.println("please pass the correct browser");
-//		}
+		String browser="chrome";
+		//1. if
+		if(browser.equals("chrome")) {
+			System.out.println("launch chrome browser using if");
+		}
+		if(browser.equals("firefox")) {
+			System.out.println("launch firefox browser");
+		}
+		if(browser.equals("ie")) {
+			System.out.println("launch ie browser");
+		}
+		if(browser.equals("safari")) {
+			System.out.println("launch safari browser");
+		}
+		else {
+			System.out.println("please pass the correct browser");
+		}
 		
-		//2. if else-if
-			if(browser.equals("chrome")) {
-				System.out.println("launch chrome browser");
-			}
-			else if(browser.equals("firefox")) {
-				System.out.println("launch firefox browser");
-			}
-			else if(browser.equals("ie")) {
-				System.out.println("launch ie browser");
-			}
-			else if(browser.equals("safari")) {
-				System.out.println("launch safari browser");
-			}else {
-				System.out.println("please provide right browser");
-			}
+//		//2. if else-if
+//			if(browser.equals("chrome")) {
+//				System.out.println("launch chrome browser");
+//			}
+//			else if(browser.equals("firefox")) {
+//				System.out.println("launch firefox browser");
+//			}
+//			else if(browser.equals("ie")) {
+//				System.out.println("launch ie browser");
+//			}
+//			else if(browser.equals("safari")) {
+//				System.out.println("launch safari browser");
+//			}else {
+//				System.out.println("please provide right browser");
+//			}
 			
-		//3. switch
+		//3. switch --> switch+cntrl+space
+//			switch (browser) {
+//			case "chrome":
+//				System.out.println("Launching chrome browser using switch");
+//				break;
+//			case "firefox":
+//				System.out.println("Launching firefox browser using switch");
+//				break;
+//			case "ie":
+//				System.out.println("Launching ie browser using switch");
+//				break;
+//			case "safari":
+//				System.out.println("Launching safari browser using switch");
+//				break;
+//			default:
+//				System.out.println("please provide the correct browser");
+//				break;
+//			}
 	}
 }
 

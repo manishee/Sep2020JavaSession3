@@ -131,6 +131,9 @@ public class DataTypes {
 		
 		System.err.println("print something in red");// print something
 		// in red like in exception handling.
+		
+		System.out.println(4/2);
+		System.out.println(5%2);//modulus operator -> divides and gives the remainder
 	}
 
 }
