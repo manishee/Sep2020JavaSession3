@@ -66,6 +66,7 @@ public class LoopsConcept {
 			System.out.println(odd);
 		}
 		System.out.println("-----");
+		
 		//3. Do while --> It will execute once even if the condition is not met
 		int n=1;
 		do{
