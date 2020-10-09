@@ -49,11 +49,18 @@ public class ArrayListConcept {
 		marksList.add(40);
 		marksList.add(50);
 		//marksList.add("tom");
-		
+		// for each
+		for(Integer ele : marksList) {
+			System.out.println(ele);
+		}
+		System.out.println("------ **** -------");
 		ArrayList<String> countryList =new ArrayList<String>();
 		countryList.add("USA");
 		countryList.add("India");
-		
+		//for each loop
+		for(String data : countryList) {
+			System.out.println(data);
+		}
 		
 		ArrayList<Object> empData=new ArrayList<Object>();
 		empData.add("Tom");
@@ -64,6 +71,12 @@ public class ArrayListConcept {
 		System.out.println("------------");
 		for(int j=0; j<empData.size(); j++) {
 			System.out.println(empData.get(j));
+		}
+		
+		//for each
+		//syso+cnt+space
+		for(Object elements : empData) {
+			System.out.println(elements);
 		}
 	}
 
