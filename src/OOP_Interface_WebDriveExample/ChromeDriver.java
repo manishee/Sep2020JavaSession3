@@ -1,0 +1,43 @@
+package OOP_Interface_WebDriveExample;
+
+public class ChromeDriver implements WebDriver{
+
+	public ChromeDriver() {
+		System.out.println("Launch Google Chrome");
+	}
+	
+	@Override
+	public void findElement(String locator) {
+		System.out.println("find element by using: " + locator);
+	}
+
+	@Override
+	public void get(String url) {
+		System.out.println("launch url with: " +url);
+	}
+
+	@Override
+	public String getTitle() {
+		
+		return "title of the page";
+	}
+
+	@Override
+	public void click() {
+		
+		System.out.println("click on the element");
+	}
+
+	@Override
+	public void sendKeys(String value) {
+		System.out.println("send the value " + value);
+		
+	}
+
+	@Override
+	public void quit() {
+		System.out.println("quit browser");
+		
+	}
+
+}
