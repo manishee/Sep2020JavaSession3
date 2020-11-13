@@ -1,7 +1,7 @@
 
 //*************** 05 October 2020 *********************
 
-package SeleniumSessions;
+package JavaSessions;
 
 public class ArraysConcept {
 

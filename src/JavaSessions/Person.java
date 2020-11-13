@@ -1,5 +1,5 @@
 //**************** Oct 8*********************
-package SeleniumSessions;
+package JavaSessions;
 
 public class Person {
 	String name;

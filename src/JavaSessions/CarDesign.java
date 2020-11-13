@@ -1,4 +1,4 @@
-package SeleniumSessions;
+package JavaSessions;
 
 public class CarDesign {
 	//class variables
@@ -22,7 +22,7 @@ public class CarDesign {
 	public static void main(String[] args) {
 		//how to call static members(variables and methods)
 		
-		//1. call static members directly
+		//1. call static members directly without class name
 		//wheels=4;
 		System.out.println(wheels);
 				

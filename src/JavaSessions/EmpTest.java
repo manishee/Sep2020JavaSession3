@@ -1,5 +1,5 @@
 //***************** October 16 **********************
-package SeleniumSessions;
+package JavaSessions;
 
 public class EmpTest {
 	String name;

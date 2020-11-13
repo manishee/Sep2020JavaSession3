@@ -1,5 +1,5 @@
 //**************** Oct 8*****************
-package SeleniumSessions;
+package JavaSessions;
 
 public class Car {// Car is a template
 	//class variables or global variables

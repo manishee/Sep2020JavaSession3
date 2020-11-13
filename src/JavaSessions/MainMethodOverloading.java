@@ -3,7 +3,7 @@ package JavaSessions;
 
 public class MainMethodOverloading {
 	//main method can be overloaded
-	//main method doesnt not return anything
+	//main method doesn't not return anything
 	
 	public static void main(int i) {
 		System.out.println(i);
